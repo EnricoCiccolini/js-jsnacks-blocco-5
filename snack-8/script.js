@@ -25,10 +25,11 @@ const students = [
 const studentFind = students.find(student =>{
  if(student.name === 'Marco Lanci' ){
 
-  console.log ( student.class)
-  return 
+  
+  return true
  }
 
   
 })
 
+console.log (studentFind.class)
